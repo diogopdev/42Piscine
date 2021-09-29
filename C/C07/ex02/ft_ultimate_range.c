@@ -6,10 +6,9 @@
 /*   By: jguerrei <jguerrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/26 19:24:50 by jguerrei          #+#    #+#             */
-/*   Updated: 2021/09/27 19:33:03 by jguerrei         ###   ########.fr       */
+/*   Updated: 2021/09/29 11:37:41 by jguerrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <stdlib.h>
 
@@ -38,3 +37,24 @@ int	ft_ultimate_range(int **range, int min, int max)
 	}
 	return (size);
 }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int ft_ultimate_range(int **range, int min, int max);
+
+// int	main(void)
+// {
+// 	int *array;
+// 	int	size;
+// 	int	i;
+// 	int a = -50;
+// 	int b = 210;
+// 	size = ft_ultimate_range(&array, a, b);
+// 	i = 0;
+// 	while (i < size)
+// 	{
+// 		printf("%d, ", array[i]);
+// 		i++;
+// 	}
+// }
